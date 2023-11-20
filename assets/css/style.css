@@ -3,23 +3,18 @@
     padding: 0;
     box-sizing: border-box;
     border: 1px solid lime;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     color: white;
 }
 
 /* contenitore header */
 .menu-navigazione {
-    /* background-image: url('../img/jumbo.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; */
     position: relative;
     height:auto;
     width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    /* gap: 200px; */
 }
 
 #sfondo-principale{
@@ -28,8 +23,6 @@
     background-size: cover;
     background-position: center;
 }
-
-
 
 /* contenitore con all'iterno logo/menu/accedi */
 .contenitore {
@@ -235,147 +228,70 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    width: 500px;
-    height: 400px;
-    background-color: black;
 }
 
 .text3 h2 {
+    font-size: 40px;
     width: 300px;
-    height: 100px;
-    background-color: burlywood;
+    height: auto;
+    color: black;
 }
 
 .text3 p {
+    font-size: 18px;
     width: 300px;
-    height: 100px;
-    background-color: brown;
-}
-
-
-.lista {
-    display: flex;
-    flex-direction: row;
-    width: 500px;
-    height: 460px;
-    background-color: black;
-}
-
-.lista ul {
-    margin-left: 50px;
-    margin-top: 30px;
-}
-
-.lista ul li {
-    height: 50px;
-    width: 250px;
-    background-color: aquamarine;
-    list-style-type: none;
-}
-
-/* contenitore sovrapposto al contenitore sfondo */
-.contenitore-sovrapposto {
-
-
-    position: absolute;
-    padding: 20px;
-    margin-top: 200px;
-    margin-right: 300px;
-    height: 260px;
-    width: 230px;
-    background-color: #ffff;
-}
-
-#immagine-sovrapposta,
-ul
-{
-    width: 100%;
-    height: 60px;
-}
-
-.contenitore-sovrapposto ul li{
-    background-color: brown;
-    height: 50px;
+    height:auto;
+   color: black;
 }
 
 /* ultimo contenitore del main  */
 
-.ultimo-sfondo{
+.text4 {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    height: 930px;
-    width: 100%;
-    background-color: #f6f6f6;
-}
-
-.ultimo-sfondo h2{
-    display: flex;
-    align-self: center;
-    height: 50px;
-    width: 60%;
-    background-color: burlywood;
-}
-
-.ultimo-sfondo p{
-    display: flex;
-    align-self: center;
-    height: 200px;
-    width: 60%;
-    background-color:brown;
-}
-
-/* contenitore immagini */
-
-.contenitore-immagine2{
-    display: flex;
-    align-self: flex-end;
-    margin-right: 345px;
-    background-color: black;
-    height: 500px;
-    width: 20%;
-    border: 8px solid aquamarine;
-}
-
-
-.contenitore-immagini{
-    display: flex;
-    position: absolute;
-    margin-top: 290px;
-    margin-left: 345px;
-    background-color: black;
-    height: 500px;
-    width: 45%;
+    text-align: center;
+    height: auto;
    
 }
+
+.text4 h2{
+    font-size: 40px;
+    width: 80%;
+    margin: 0 auto;
+    color: black;
+    margin-top: 50px;
+}
+.text4 p{
+    font-size: 20px;
+    width: 80%;
+    margin: 0 auto;
+    color: black;
+}
+.text5 h2{
+    font-size: 20px;
+    width: 100%;
+    color: black;
+    margin-bottom: 30px;
+}
+
+#dowload{
+    background-color:#8ea1e1;
+    color: #ffff;
+    height: 35px;
+    width: 150px;
+    align-self: center;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    border: none;
+}
+#freccia2{
+    color: #ffff;
+    font-size: 20px;
+}
+
 /* tasti sotto alla prima immagine */
 
-
-.immagini-verticali{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-
-}
-
-.img1{
-    margin-left: 10px;
-    display: flex;
-    align-self:center;
-    background-color: white;
-    height: 60%;
-    width: 60%;
-}
-.img2,
-.img3{
-    height: 100px;
-    width: 250px;
-    background-color: white;
-    margin-left: 20px;
-
-    
-}
 
 .titolo-tasto{
     display: flex;
