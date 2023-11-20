@@ -1,0 +1,490 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid lime;
+    text-transform: capitalize;
+    color: white;
+}
+
+/* contenitore header */
+.menu-navigazione {
+    background-color: #3161e0;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+/* contenitore con all'iterno logo/menu/accedi */
+.contenitore {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+
+}
+
+/* contenitore del menu di navigazione */
+.comune {
+    background-color: white;
+
+}
+
+/* contenitore logo */
+.logo {
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo span {
+    color: black;
+}
+
+.logo img {
+    height: 47px;
+    width: 40px;
+    background-color: black;
+    display: block;
+}
+
+/* menu ul di navigazione */
+.menu {
+    height: 50px;
+    width: 600px;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.menu ul li {
+    margin-top: 5px;
+    list-style-type: none;
+    background-color: chocolate;
+    height: 40px;
+    width: 80px;
+}
+
+/* tastoaccedi  */
+.accedi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+}
+
+.accedi button {
+    background-color: black;
+    height: 50px;
+    width: 80px;
+    align-content: center;
+
+}
+
+/* contenitore testo e bottoni  */
+
+.text {
+    background-color: white;
+    height: 250px;
+    width: 50%;
+    margin: 20px auto 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* titolo */
+.text h1 {
+    background-color: burlywood;
+    height: 60px;
+    width: 60%;
+    align-self: center;
+
+}
+
+/* paragrafo */
+.text p {
+    background-color: brown;
+    height: 100px;
+    width: 60%;
+    align-self: center;
+}
+
+/* contenitore bottoni */
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.text button {
+    background-color: blue;
+    height: 50px;
+    width: 100px;
+    align-self: center;
+}
+
+#tasto1 {
+    height: 50px;
+    width: 120px;
+}
+
+#tasto2 {
+    height: 50px;
+    width: 200px;
+}
+
+/* contenitore sfondo main  */
+main {
+    height: 100%;
+}
+
+.sfondo {
+    height: 600px;
+    width: 100%;
+    background-color: #ffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.immagine {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 600px;
+}
+
+.immagine img {
+    width: 350px;
+    height: 100%;
+    background-color: black;
+
+
+}
+
+.testo-immagine {
+    height: 100%;
+    width: 150px;
+    background-color: blue;
+}
+
+/* contenitore section text2 */
+.text2 {
+    width: 500px;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* titolo secondo contenitore */
+.text2 h2 {
+    background-color: burlywood;
+    height: 320px;
+    width: 60%;
+    align-self: center;
+
+}
+
+/* paragrafo  secondo contenitore*/
+.text2 p {
+    background-color: brown;
+    height: 230px;
+    width: 70%;
+    align-self: center;
+}
+
+
+/* contenitore sfondo due main  */
+.sfondo2 {
+    height: 600px;
+    width: 100%;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.text3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 500px;
+    height: 400px;
+    background-color: black;
+}
+
+.text3 h2 {
+    width: 300px;
+    height: 100px;
+    background-color: burlywood;
+}
+
+.text3 p {
+    width: 300px;
+    height: 100px;
+    background-color: brown;
+}
+
+
+.lista {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 460px;
+    background-color: black;
+}
+
+.lista ul {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.lista ul li {
+    height: 50px;
+    width: 250px;
+    background-color: aquamarine;
+    list-style-type: none;
+}
+
+/* contenitore sovrapposto al contenitore sfondo */
+.contenitore-sovrapposto {
+
+
+    position: absolute;
+    padding: 20px;
+    margin-top: 200px;
+    margin-right: 300px;
+    height: 260px;
+    width: 230px;
+    background-color: #ffff;
+}
+
+#immagine-sovrapposta,
+ul
+{
+    width: 100%;
+    height: 60px;
+}
+
+.contenitore-sovrapposto ul li{
+    background-color: brown;
+    height: 50px;
+}
+
+/* ultimo contenitore del main  */
+
+.ultimo-sfondo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 930px;
+    width: 100%;
+    background-color: #f6f6f6;
+}
+
+.ultimo-sfondo h2{
+    display: flex;
+    align-self: center;
+    height: 50px;
+    width: 60%;
+    background-color: burlywood;
+}
+
+.ultimo-sfondo p{
+    display: flex;
+    align-self: center;
+    height: 200px;
+    width: 60%;
+    background-color:brown;
+}
+
+/* contenitore immagini */
+
+.contenitore-immagine2{
+    display: flex;
+    align-self: flex-end;
+    margin-right: 345px;
+    background-color: black;
+    height: 500px;
+    width: 20%;
+    border: 8px solid aquamarine;
+}
+
+
+.contenitore-immagini{
+    display: flex;
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 345px;
+    background-color: black;
+    height: 500px;
+    width: 45%;
+   
+}
+/* tasti sotto alla prima immagine */
+
+
+.immagini-verticali{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.img1{
+    margin-left: 10px;
+    display: flex;
+    align-self:center;
+    background-color: white;
+    height: 60%;
+    width: 60%;
+}
+.img2,
+.img3{
+    height: 100px;
+    width: 250px;
+    background-color: white;
+    margin-left: 20px;
+
+    
+}
+
+.titolo-tasto{
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+    ;
+
+}
+
+.titolo-tasto h2{
+    background-color: burlywood;
+    display: flex;
+    align-self: center;
+    width: 500px;
+}
+
+.titolo-tasto button{
+    background-color: blue;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-self: center;
+
+}
+footer{
+    background-color: #23272a;
+    width: 100%;
+    height: auto;
+}
+
+.contenitore-piedipagina{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+
+}
+
+/* contenitore delle lista */
+.lista-footer{
+    display: flex;
+    width: 300px;
+    height: 335px;
+    background-color: #ffff;
+    margin-top: 100px;
+   
+   
+}
+/* contenitore lista 2 */
+.lista-footer2{
+    display: flex;
+    width: 300px;
+    height: 665px;
+    background-color: #ffff;
+    margin-top: 100px;
+}
+/* contenitore lista 3  */
+.lista-footer3{
+    display: flex;
+    width: 350px;
+    height: 270px;
+    background-color: #ffff;
+    margin-top: 100px;
+}
+.menu1 li{
+    width: 100%;
+    height: 50px;
+    margin: 5px auto;
+    list-style-type: none;
+    background-color: cadetblue;
+}
+.lista-footer3{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.lista-footer3 h2{
+    background-color: burlywood;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    
+}
+
+.lista-footer3 span{
+    background-color: brown;
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.button2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    gap: 30px;
+}
+
+.button2 button{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+
+}
+
+
+.hr hr{
+    background-color: #404b6a; 
+    width: 65%;
+    margin: 10px auto;
+}
+.logo-tasto{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    height: 100px;
+    margin: 0 auto;
+}
+
