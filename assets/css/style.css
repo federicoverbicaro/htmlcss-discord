@@ -9,55 +9,59 @@
 
 /* contenitore header */
 .menu-navigazione {
-    background-color: #3161e0;
-    height: 400px;
+    /* background-image: url('../img/jumbo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    position: relative;
+    height:auto;
     width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-
-
+    /* gap: 200px; */
 }
+
+#sfondo-principale{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
 
 /* contenitore con all'iterno logo/menu/accedi */
 .contenitore {
-    width: 100%;
+    position: absolute;
+    top: 45px;
+    width: 70%;
     display: flex;
     justify-content: space-around;
-    gap: 10px;
-
-}
-
-/* contenitore del menu di navigazione */
-.comune {
-    background-color: white;
+    align-self: center;
+    gap: 18%;
 
 }
 
 /* contenitore logo */
 .logo {
-    height: 50px;
-    width: 100px;
+    height:auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo span {
-    color: black;
-}
 
 .logo img {
-    height: 47px;
-    width: 40px;
-    background-color: black;
-    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
 }
 
 /* menu ul di navigazione */
 .menu {
-    height: 50px;
-    width: 600px;
+    width: 46%;
 }
 
 .menu ul {
@@ -68,11 +72,19 @@
 
 
 .menu ul li {
-    margin-top: 5px;
+    
+    display: flex;
+    justify-content: center;
+    align-self: center;
     list-style-type: none;
-    background-color: chocolate;
-    height: 40px;
-    width: 80px;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.menu ul li a{
+    text-decoration: none;
 }
 
 /* tastoaccedi  */
@@ -80,45 +92,49 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
-    width: 100px;
+    height: auto;
+   
 }
 
 .accedi button {
-    background-color: black;
+    background-color:#ffff;
+    color: black;
     height: 50px;
     width: 80px;
     align-content: center;
+    border-radius: 30px;
 
 }
 
 /* contenitore testo e bottoni  */
 
 .text {
-    background-color: white;
-    height: 250px;
+    position: absolute;
+    left: 25%;
     width: 50%;
-    margin: 20px auto 0px;
+    margin: 20px auto;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    justify-content: flex-end;
+    gap: 30px;
 }
 
 /* titolo */
 .text h1 {
-    background-color: burlywood;
-    height: 60px;
+    height:auto;
     width: 60%;
     align-self: center;
+    text-align: center;
+    font-size: 40px;
 
 }
 
 /* paragrafo */
 .text p {
-    background-color: brown;
-    height: 100px;
+    height:auto;
     width: 60%;
     align-self: center;
+    text-align: center;
 }
 
 /* contenitore bottoni */
@@ -130,30 +146,38 @@
 }
 
 .text button {
-    background-color: blue;
-    height: 50px;
+    height: auto;
     width: 100px;
     align-self: center;
 }
 
 #tasto1 {
+    background-color: #ffff;
+    color: black;
     height: 50px;
-    width: 120px;
+    width: 140px;
+    border-radius: 20px;
+}
+#freccia{
+    color: black;
+    font-size: 25px;
 }
 
 #tasto2 {
+    background-color: black;
+    color:#ffff ;
     height: 50px;
     width: 200px;
+    border-radius: 20px;
 }
 
 /* contenitore sfondo main  */
 main {
-    height: 100%;
+    height: auto;
 }
 
 .sfondo {
-    height: 600px;
-    width: 100%;
+    height: 500px;
     background-color: #ffff;
     display: flex;
     justify-content: space-evenly;
@@ -163,29 +187,13 @@ main {
 .immagine {
     display: flex;
     flex-direction: row;
-    width: 500px;
-    height: 600px;
+    height: 345px;
 }
 
-.immagine img {
-    width: 350px;
-    height: 100%;
-    background-color: black;
-
-
-}
-
-.testo-immagine {
-    height: 100%;
-    width: 150px;
-    background-color: blue;
-}
 
 /* contenitore section text2 */
 .text2 {
     width: 500px;
-    height: 600px;
-    background-color: black;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -194,19 +202,20 @@ main {
 
 /* titolo secondo contenitore */
 .text2 h2 {
-    background-color: burlywood;
-    height: 320px;
+    color: black;
+    font-size: 35px;
     width: 60%;
     align-self: center;
+    line-height: 45px;
 
 }
 
 /* paragrafo  secondo contenitore*/
 .text2 p {
-    background-color: brown;
-    height: 230px;
-    width: 70%;
+    color: black;
+    width: 60%;
     align-self: center;
+    font-size: 17px;
 }
 
 
