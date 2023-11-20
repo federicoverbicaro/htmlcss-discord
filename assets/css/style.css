@@ -3,21 +3,25 @@
     padding: 0;
     box-sizing: border-box;
     border: 1px solid lime;
-    /* text-transform: capitalize; */
     color: white;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
 
 /* contenitore header */
 .menu-navigazione {
     position: relative;
-    height:auto;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-#sfondo-principale{
+#sfondo-principale {
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,7 +32,7 @@
 .contenitore {
     position: absolute;
     top: 45px;
-    width: 70%;
+    width: 72%;
     display: flex;
     justify-content: space-around;
     align-self: center;
@@ -38,7 +42,7 @@
 
 /* contenitore logo */
 .logo {
-    height:auto;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,7 +53,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-   
+
 }
 
 /* menu ul di navigazione */
@@ -65,7 +69,7 @@
 
 
 .menu ul li {
-    
+
     display: flex;
     justify-content: center;
     align-self: center;
@@ -73,10 +77,10 @@
     height: auto;
     width: 100%;
     text-align: center;
-    
+
 }
 
-.menu ul li a{
+.menu ul li a {
     text-decoration: none;
 }
 
@@ -86,16 +90,18 @@
     justify-content: center;
     align-items: center;
     height: auto;
-   
+
 }
 
 .accedi button {
-    background-color:#ffff;
+    background-color: #ffff;
     color: black;
-    height: 50px;
+    height: 35px;
     width: 80px;
     align-content: center;
-    border-radius: 30px;
+    border-radius: 20px;
+    border:none
+
 
 }
 
@@ -114,7 +120,7 @@
 
 /* titolo */
 .text h1 {
-    height:auto;
+    height: auto;
     width: 60%;
     align-self: center;
     text-align: center;
@@ -124,7 +130,7 @@
 
 /* paragrafo */
 .text p {
-    height:auto;
+    height: auto;
     width: 60%;
     align-self: center;
     text-align: center;
@@ -142,6 +148,7 @@
     height: auto;
     width: 100px;
     align-self: center;
+    border: none;
 }
 
 #tasto1 {
@@ -150,15 +157,17 @@
     height: 50px;
     width: 140px;
     border-radius: 20px;
+    
 }
-#freccia{
+
+#freccia {
     color: black;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #tasto2 {
     background-color: black;
-    color:#ffff ;
+    color: #ffff;
     height: 50px;
     width: 200px;
     border-radius: 20px;
@@ -240,8 +249,8 @@ main {
 .text3 p {
     font-size: 18px;
     width: 300px;
-    height:auto;
-   color: black;
+    height: auto;
+    color: black;
 }
 
 /* ultimo contenitore del main  */
@@ -252,31 +261,51 @@ main {
     gap: 20px;
     text-align: center;
     height: auto;
-   
+
 }
 
-.text4 h2{
+.text4 h2 {
     font-size: 40px;
     width: 80%;
     margin: 0 auto;
     color: black;
     margin-top: 50px;
 }
-.text4 p{
+
+.text4 p {
     font-size: 20px;
     width: 80%;
     margin: 0 auto;
     color: black;
 }
-.text5 h2{
+.text5{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    height: auto;
+    width: 650px;
+
+
+}
+
+.text5 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/stars.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 330px;
     font-size: 20px;
     width: 100%;
     color: black;
     margin-bottom: 30px;
+    height: 70px;
 }
 
-#dowload{
-    background-color:#8ea1e1;
+#dowload {
+    background-color: #8ea1e1;
     color: #ffff;
     height: 35px;
     width: 150px;
@@ -285,131 +314,135 @@ main {
     margin-bottom: 30px;
     border: none;
 }
-#freccia2{
+
+#freccia2 {
     color: #ffff;
     font-size: 20px;
 }
 
-/* tasti sotto alla prima immagine */
 
-
-.titolo-tasto{
-    display: flex;
-    flex-direction: column;
-    gap: 15px
-    ;
-
-}
-
-.titolo-tasto h2{
-    background-color: burlywood;
-    display: flex;
-    align-self: center;
-    width: 500px;
-}
-
-.titolo-tasto button{
-    background-color: blue;
-    height: 50px;
-    width: 100px;
-    display: flex;
-    align-self: center;
-
-}
-footer{
+footer {
     background-color: #23272a;
     width: 100%;
     height: auto;
 }
 
-.contenitore-piedipagina{
+.contenitore-piedipagina {
     display: flex;
     justify-content: space-evenly;
     gap: 5px;
+    margin: 0 auto;
+    width: 80%;
 
 }
 
 /* contenitore delle lista */
-.lista-footer{
+.lista-footer {
+    flex-basis: 200px;
     display: flex;
-    width: 300px;
-    height: 335px;
-    background-color: #ffff;
-    margin-top: 100px;
-   
-   
-}
-/* contenitore lista 2 */
-.lista-footer2{
-    display: flex;
-    width: 300px;
-    height: 665px;
-    background-color: #ffff;
     margin-top: 100px;
 }
+
 /* contenitore lista 3  */
-.lista-footer3{
-    display: flex;
-    width: 350px;
-    height: 270px;
-    background-color: #ffff;
-    margin-top: 100px;
-}
-.menu1 li{
-    width: 100%;
-    height: 50px;
-    margin: 5px auto;
-    list-style-type: none;
-    background-color: cadetblue;
-}
-.lista-footer3{
+.lista-footer2 {
     display: flex;
     flex-direction: column;
+    width: 100px;
+    height: auto;
+    margin-top: 100px;
     gap: 5px;
+    flex-basis: 280px;
+    margin-right: 40px;
 }
 
-.lista-footer3 h2{
-    background-color: burlywood;
+.menu1 ul {
     width: 100%;
-    height: 100px;
-    display: flex;
-    
+    height: auto;
 }
 
-.lista-footer3 span{
-    background-color: brown;
-    width: 100%;
-    height: 100px;
-    display: flex;
+.menu1 ul li {
+    height: auto;
+    margin: 5px auto;
+    list-style-type: none;
+    color: #ffff;
+}
+.menu1 ul li a{
+    text-decoration: none;
 }
 
-.button2{
+.menu1 ul li h4 {
+    color: #6376ba;
+}
+
+
+.lista-footer2 ul li {
+    list-style-type: none; 
+   
+}
+.lista-footer2 ul li h3 {
+    color:#6376ba ;
+    font-size: 30px;
+}
+.italia{
+    display: flex;
+    margin-top:10px;
+}
+#img-italia{
+    height: 30px;
+}
+.italia p{
+    display: flex;
+    align-self: center;
+    margin-left: 5px;
+}
+#arrow-down {
+    display: inline-block;
+      transform: rotate(90deg);
+      margin-left: 5px;
+}
+
+
+.button2 {
     display: flex;
     justify-content: center;
     flex-direction: row;
     width: 100%;
     height: 60px;
     gap: 30px;
+    margin-top: 10px;
 }
 
-.button2 button{
-    background-color: blue;
+.button2 button {
+   background-color: #23272a;
     width: 50px;
-    height: 50px;
+    height: 30px;
 
 }
 
-
-.hr hr{
-    background-color: #404b6a; 
+.hr1{
+  
     width: 65%;
     margin: 10px auto;
 }
-.logo-tasto{
+.hr1 hr{
+    background-color:#4a5882;
+}
+
+.logo-tasto {
     display: flex;
     justify-content: space-between;
     width: 65%;
     height: 100px;
     margin: 0 auto;
 }
+.accedi2 button {
+    background-color:#6376ba;
+    color: white;
+    height: 50px;
+    width: 80px;
+    align-content: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: none;
 
+}
